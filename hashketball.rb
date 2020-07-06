@@ -133,7 +133,7 @@ def num_points_scored(player_name)
       binding.pry
       if atributes[players] == player_name
         atributes[players][points]
-        
+
       end
       #data.each do |player_data|
         #binding.pry
