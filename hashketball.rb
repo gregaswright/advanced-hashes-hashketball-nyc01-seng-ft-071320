@@ -1,4 +1,4 @@
-# Write your code below game_hash
+-e# Write your code below game_hash
 def game_hash
   {
     home: {
@@ -126,4 +126,6 @@ def game_hash
   }
 end
 
-# Write code here
+def num_points_scored
+  game_hash
+end
