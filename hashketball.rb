@@ -1,4 +1,4 @@
--e# Write your code below game_hash
+# Write your code below game_hash
 def game_hash
   {
     home: {
