@@ -129,9 +129,10 @@ end
 
 def num_points_scored(player_name)
   game_hash.each do |location, team_data|
+    binding.pry
     if team_data[:players][:player_name] == "Alan Anderson"
       team_data[:players][:points]
-      binding.pry
+      
     end
   # binding.pry
     #team_data.each do |atributes, data|
