@@ -158,6 +158,11 @@ end
 def team_names
   game_hash.map do |location, team_data|
     team_data[:team_name]
+  end
+end
 
+def player_numbers(team_name)
+  game_hash.each do |location, team_data|
+    binding.pry
   end
 end
