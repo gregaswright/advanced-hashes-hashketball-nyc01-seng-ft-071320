@@ -181,7 +181,6 @@ def player_stats(player_name)
     team_data[:players].map do |player|
       if player[:player_name] == player_name
         stats << player_name
-        binding.pry
       end
     end
   end
