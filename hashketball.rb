@@ -157,7 +157,7 @@ end
 
 def team_names
   game_hash.each do |location, team_data|
-    if team_data[:team_name] == :team_name
+    if team_data == :team_name
       binding.pry
       return team_data[:team_name]
     end
