@@ -188,6 +188,7 @@ def big_shoe_rebounds
   points= nil
   game_hash.each do |location, team_data|
     team_data[:players].map do |player|
+      binding.pry
     end
   end
 end
