@@ -167,7 +167,7 @@ def player_numbers(team_name)
 
       if team_data[:team_name] == team_name
 
-        return player[:shoe]
+        return player[:number]
       end
     end
   end
