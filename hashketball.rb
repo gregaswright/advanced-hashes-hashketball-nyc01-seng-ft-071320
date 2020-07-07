@@ -176,7 +176,9 @@ end
 def player_stats(player_name)
   game_hash.each do |location, team_data|
     team_data[:players].map do |player|
-      binding.pry
+      if player[:player_name]
+        binding.pry
+      end
     end
   end
 end
